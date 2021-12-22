@@ -131,7 +131,7 @@ parameter "shell_bin" = "{ tuple string items 0 of concatenations ", " of ( path
 delete "{parameter "BPSFolder"}log4j2-scan"
 
 // TODO: Does this command work on Linux and Unix? Does this binary work on Unix?
-wait tar -zxf __Download/logpresso-log4j2-scan-darwin.zip -C "{parameter "BPSFolder"}"
+wait tar -zxf __Download/logpresso-log4j2-scan-2.5.3-darwin.zip -C "{parameter "BPSFolder"}"
 
 
 
